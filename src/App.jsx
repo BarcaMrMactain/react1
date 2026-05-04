@@ -24,6 +24,9 @@ import NewsEverythingDetails from './pages/newsapi/NewsEverythingDetails'
 import Weather1 from './pages/openweather/Weather1'
 import Weather2 from './pages/openweather/Weather2'
 import Hobbies from './pages/rapidapi/Hobbies'
+import Facts from './pages/rapidapi/Facts'
+import LoveCalc from './pages/rapidapi/LoveCalc'
+import Dog from './pages/rapidapi/Dog'
 // const router = createBrowserRouter( [
 //   { 
 //     path: "/", element: <Home />
@@ -63,6 +66,9 @@ const router = createBrowserRouter([
     { path: "/weather1", element: <Weather1 /> },
     { path: "/weather2", element: <Weather2 /> },
     { path: "/hobbies", element: <Hobbies /> },
+    { path: "/facts", element: <Facts /> },
+    { path: "/lovecalc", element: <LoveCalc /> },
+    { path: "/dog", element: <Dog /> },
     { path: "*", element: <NotFound />},
   ]
 }

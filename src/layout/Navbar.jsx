@@ -81,6 +81,9 @@ const Navbar = () => {
               <summary>RapidAPI</summary>
               <ul className="bg-base-100 p-2">
                 <li><NavLink to="/hobbies">Hobbies</NavLink></li>
+                <li><NavLink to="/facts">Facts</NavLink></li>
+                <li><NavLink to="/lovecalc">Love meter</NavLink></li>
+                <li><NavLink to="/dog">Dog</NavLink></li>
               </ul>
             </details>
           </li>

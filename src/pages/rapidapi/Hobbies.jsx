@@ -28,11 +28,11 @@ const Hobbies = () => {
       {data && (
         <div
           className="max-w-xl w-full mx-auto 
-          bg-gradient-to-br from-purple-600/70 to-black/70 
+          bg-linear-to-br from-purple-600/70 to-black/70 
           p-8 rounded-2xl shadow-2xl 
           border border-white/20 backdrop-blur-md text-center"
         >
-          <h2 className="text-4xl font-bold mb-6 text-yellow-300">
+          <h2 className="text-4xl font-bold mb-6 text-yellow-300 animate-pulse">
             {data.hobby}
           </h2>
 
@@ -61,7 +61,7 @@ const Hobbies = () => {
                 },
               })
             }
-            className="block mx-auto m-6 px-4 py-2 text-black bg-yellow-300 hover:bg-yellow-500 rounded-lg"
+            className="block mx-auto m-6 px-4 py-2 cursor-pointer text-black bg-yellow-300 hover:bg-yellow-500 rounded-lg"
           >
             🔄 Ny hobby
           </button>
