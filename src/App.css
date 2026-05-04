@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+#center {
+  display: flex;
+  flex-direction: column;
+  place-items: Center;
+}
+ 
+.velkommen {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.lokh {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin: 5px;
+}
+
