@@ -75,6 +75,16 @@ const Navbar = () => {
             </details>
           </li>
 
+          {/* RapidAPI */}
+          <li>
+            <details>
+              <summary>RapidAPI</summary>
+              <ul className="bg-base-100 p-2">
+                <li><NavLink to="/hobbies">Hobbies</NavLink></li>
+              </ul>
+            </details>
+          </li>
+
         </ul>
       </div>
     </div>

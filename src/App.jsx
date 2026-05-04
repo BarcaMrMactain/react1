@@ -23,6 +23,7 @@ import NewsEverythingDetails from './pages/newsapi/NewsEverythingDetails'
 // open weather
 import Weather1 from './pages/openweather/Weather1'
 import Weather2 from './pages/openweather/Weather2'
+import Hobbies from './pages/rapidapi/Hobbies'
 // const router = createBrowserRouter( [
 //   { 
 //     path: "/", element: <Home />
@@ -61,6 +62,7 @@ const router = createBrowserRouter([
     { path: "/newsdetails", element: <NewsEverythingDetails />},
     { path: "/weather1", element: <Weather1 /> },
     { path: "/weather2", element: <Weather2 /> },
+    { path: "/hobbies", element: <Hobbies /> },
     { path: "*", element: <NotFound />},
   ]
 }
